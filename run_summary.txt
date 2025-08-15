@@ -1,0 +1,5 @@
+HPC optimization: AoS (python loop) vs SoA (NumPy)
+
+N=50000: AoS=0.016077s, SoA=0.000849s, Speedup=18.9x
+N=200000: AoS=0.068138s, SoA=0.003742s, Speedup=18.2x
+N=1000000: AoS=0.327992s, SoA=0.015398s, Speedup=21.3x
